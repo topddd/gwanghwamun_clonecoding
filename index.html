@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>광화문광장-클론코딩</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="favicon" href="images/광화문-파비콘-removebg-preview.png"/>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <div class="inner">
+          <div class="seoul-popup">
+            <ul>
+              <li class="seoul-logo"><a href="#"></a></li>
+              <li class="seoul-icon"><a href="#"></a></li>
+              <li class="seoul-text1">
+                <a href="#">2023년 서울시 전기차 충전기 시민신청</a>
+              </li>
+              <li class="seoul-text"><a href="#">서울소식</a></li>
+              <li class="seoul-text"><a href="#">응답소</a></li>
+              <li class="seoul-text"><a href="#">정보공개</a></li>
+              <li class="seoul-text"><a href="#">분야별정보</a></li>
+            </ul>
+          </div>
+          <div class="header">
+            <div class="inner">
+              <div class="header-bg"></div>
+              <div class="header-logo"><a href="#"></a></div>
+              <ul>
+                <li>
+                  <a href="#">광장소개</a>
+                  <ul>
+                    <li><a href="#">광화문광장 소개</a></li>
+                    <li><a href="#">광장조성 사업안내</a></li>
+                    <li><a href="#">광장 시설안내</a></li>
+                    <li><a href="#">오시는 길</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">광화문즐기기</a>
+                  <ul>
+                    <li><a href="#">해치마당 영상창</a></li>
+                    <li><a href="#">매장문화재 이야기</a></li>
+                    <li><a href="#">안내 여상</a></li>
+                    <li><a href="#">창작 공모전</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">광장나들이</a>
+                  <ul>
+                    <li><a href="#">지금, 광화문에서는</a></li>
+                    <li><a href="#">광장사용 허가신청</a></li>
+                    <li>
+                      <a href="#"
+                        >광장24시<img
+                          src="images/ico_newtab_d2.png"
+                          alt="바로가기"
+                      /></a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">광장소식</a>
+                  <ul>
+                    <li><a href="#">공지사항</a></li>
+                    <li><a href="#">보도자료</a></li>
+                    <li>
+                      <a href="#"
+                        >실시간 광장 데이터<img
+                          src="images/ico_newtab_d2.png"
+                          alt="바로가기"
+                      /></a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="after"><a href="#">광화문광장 아카이브</a></li>
+              </ul>
+              <div class="area">
+                <div class="area-box">
+                  <p>종로구</p>
+                  <p>-℃</p>
+                  <p class="img-box1"></p>
+                </div>
+                <div class="air">
+                  <p class="air-border">미세먼지:좋음</p>
+                  <p>초미세머지:좋음</p>
+                </div>
+              </div>
+              <div class="en">
+                <!-- <div class="img-box2"></div> -->
+                <p>EN</p>
+              </div>
+              <div class="btn">
+                <a href="#">
+                  <div class="btn-box">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="section1">
+          <div class="inner">
+            <!-- Swiper -->
+            <div class="swiper myswiper">
+              <div class="section-box">
+                <p>과거와 현대를 연결하는 모두의 문화공간</p>
+                <div class="section-box-img">
+                  <img
+                    src="images/main_text03.png"
+                    alt="역사 위를 걷다. 문화 곁에 쉬다."
+                  />
+                </div>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="bg-wrap bg1">
+                    <img
+                      src="images-recent-2023-11-29/main_visual01_new (1).jpg"
+                      alt="main1"
+                      style="width: 100%; height: 800px"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bg-wrap bg2">
+                    <img
+                      src="images-recent-2023-11-29/main_visual02_new (1).jpg"
+                      alt="main2"
+                      style="width: 100%; height: 800px"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="bg-wrap bg3">
+                    <img
+                      src="images-recent-2023-11-29/main_visual03_new (1).jpg"
+                      alt="main3"
+                      style="width: 100%; height: 800px"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-stop"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+            <div class="text-box">
+              <div class="left section-bottom">
+                <a href="#"><span>광장 오시는길</span></a>
+              </div>
+              <div class="middle section-bottom">
+                <a href="#"><span>광장 사업안내</span></a>
+              </div>
+              <div class="right section-bottom">
+                <a href="#"><span>허가신청 안내</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2">
+          <div class="inner">
+            <div class="inner-box">
+              <div class="text-box">
+                <h2>광화문광장<br />프로그램</h2>
+                <p class="left-box">
+                  더 즐겁고 새롭게 <br />광화문광장을 누려보세요
+                </p>
+                <a href="#"><span>행사 전체보기</span></a>
+              </div>
+              <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                  <!-- 2023-11-29 최신화 -->
+
+                  <!-- <div class="swiper-slide">
+                    <div class="box1">
+                      <div class="text-box">
+                        <span> 광장일대, 육조마당, 놀이마당 </span>
+                        <p>지구하다 페스티벌</p>
+                        <span> 2023-10-23~2023-10-24 </span>
+                      </div>
+                      <div class="img-box">
+                        <div class="img-box-bg"></div>
+                        <span>자세히보기</span>
+                        <img
+                          src="images/지구하다 페스티벌_썸네일.png"
+                          alt="지구"
+                        />
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="swiper-slide">
+                    <div class="box1">
+                      <div class="text-box">
+                        <span> 문화쉼터 </span>
+                        <p>광화문광장 미디어파사드 초대전</p>
+                        <span> 2023-08-01~2023-12-13 </span>
+                      </div>
+                      <div class="img-box">
+                        <div class="img-box-bg"></div>
+                        <span>자세히보기</span>
+                        <img
+                          src="images/미디어파사드-초대전_대표2.jpg"
+                          alt="지구"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <!-- 2023-11-29 최신화 -->
+
+                  <!-- <div class="swiper-slide">
+                    <div class="box1">
+                      <div class="text-box">
+                        <span> 광장일대 </span>
+                        <p>2023 광화문 책마당</p>
+                        <span> 2023-04-23~2023-11-12 </span>
+                      </div>
+                      <div class="img-box">
+                        <div class="img-box-bg"></div>
+                        <span>자세히보기</span>
+                        <img
+                          src="images/광화문책마당_대표이미지 (1).jpg"
+                          alt="지구"
+                        />
+                      </div>
+                    </div>
+                  </div> -->
+                  <div class="swiper-slide">
+                    <div class="box1">
+                      <div class="text-box">
+                        <span> 광장숲, 놀이마당, 사계정원, 문화쉼터 </span>
+                        <p>2023 서울거리공연 구석구석 라이브</p>
+                        <span> 2023-04-24~2023-11-30 </span>
+                      </div>
+                      <div class="img-box">
+                        <div class="img-box-bg"></div>
+                        <span>자세히보기</span>
+                        <img
+                          src="images/구석구석라이브_대표이미지.jpg"
+                          alt="지구"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="box1">
+                      <div class="after-box"><span>행사종료</span></div>
+                      <div class="text-box">
+                        <span>놀이마당</span>
+                        <p>2023년 개발협력주간</p>
+                        <span> 2023-11-21~2023-11-23 </span>
+                      </div>
+                      <div class="img-box after">
+                        <div class="img-box-bg"></div>
+                        <span>자세히보기</span>
+                        <img
+                          src="images-recent-2023-11-29/mid-slide-img.jpg"
+                          alt="지구"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sw-prev"></div>
+              <div class="sw-next"></div>
+              <!-- Swiper -->
+              <div class="swiper-box">
+                <p>팝업존</p>
+                <div class="swiper meswiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="images-recent-2023-11-29/popupzone_1.png" alt="right-img" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="images-recent-2023-11-29/popupzone_2_설문조사.png" alt="right-img" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="images-recent-2023-11-29/popupzone2 (1).png" alt="right-img" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="images/popupzone_ex04.png" alt="right-img" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper--next"></div>
+                <div class="swiper--stop"></div>
+                <div class="swiper--prev"></div>
+                <div class="swiper-pagination1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section3">
+          <div class="inner">
+            <div class="left-box">
+              <h2>공지사항</h2>
+              <ul>
+                <li>
+                  <a href="#">광화문광장 사용허가 심사결과(1.24.)</a>
+                  <span><a href="#">2023-11-24</a></span>
+                </li>
+                <li>
+                  <a href="#">★광화문광장 요기어때★ (2023 광화문광장 이용 설문 조사)</a>
+                  <span><a href="#">2023-11-23</a></span>
+                </li>
+                <li>
+                  <a href="#">★찾아라광화문광장★ 이벤트 안내</a>
+                  <span><a href="#">2023-11-23</a></span>
+                </li>
+                <li>
+                  <a href="#"
+                    >분수 운영 중지 안내 (23.11.1~24.3월까지)</a
+                  >
+                  <span><a href="#">2023-10-31</a></span>
+                </li>
+              </ul>
+              <a href="javascript:void(0)" class="the">더보기+</a>
+            </div>
+            <div class="center-box">
+              <h2>보도자료</h2>
+              <ul>
+                <li class="img-box3">
+                  <a href="#"
+                    ><img
+                      src="images-recent-2023-11-29/popupzone2 (1).png"
+                      alt="banner-100"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    >광화문광장 인공지능(AI) 미디어월에서 만나는 백남준... 서울시, 백남준 오마주 전(展) 개최</a
+                  >
+                  <span><a href="#">2023-11-24</a></span>
+                </li>
+              </ul>
+              <a href="javascript:void(0)" class="the">더보기+</a>
+            </div>
+            <div class="right-box">
+              <div class="img-box2">
+                <img src="images/gonggan_tit.png" alt="bg-tit" />
+              </div>
+              <p><a href="#">광화문광장 주요 공간들과 활용에 관한 이야기</a></p>
+              <div class="right-btn">
+                <p><a href="#">광장 안내영상 바로가기</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section4">
+          <div class="inner">
+            <div class="section4-menu">
+              <h2>광화문광장 즐기기</h2>
+              <p>광화문광장 친구들의 이야기가 소개됩니다</p>
+            </div>
+            <div class="inner1">
+              <div class="item-box1">
+                <div class="section4-box">
+                  <div class="img-box">
+                    <img src="images/enjoy_quick01.jpg" alt="enjoy1" />
+                    <div class="section-hover">
+                      <div class="section-icon">
+                        <img
+                          src="images/enjoy_layer_ico.png"
+                          alt="광화문icon"
+                        />
+                        <p>자세히보기</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-text-box">
+                    <strong>해치마당 영상창</strong>
+                    <span></span>
+                    <p>
+                      광화문의 과거, 현재, 미래를 화려한 빛과 사운드의
+                      미디어아트로 표현한 영상창 작품들을 만나 보실 수 있습니다
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item-box1">
+                <div class="section4-box">
+                  <div class="img-box">
+                    <img src="images/enjoy_quick02.jpg" alt="enjoy1" />
+                    <div class="section-hover">
+                      <div class="section-icon">
+                        <img
+                          src="images/enjoy_layer_ico.png"
+                          alt="광화문icon"
+                        />
+                        <p>자세히보기</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-text-box">
+                    <strong>매장문화재 이야기</strong>
+                    <span></span>
+                    <p>
+                      광화문광장 일대에 묻혀있던 매장문화재 이갸기를 통해 우리
+                      선조들의 생활 및 사회모습을 만나 보실 수 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item-box1">
+                <div class="section4-box">
+                  <div class="img-box">
+                    <img src="images/enjoy_quick03.jpg" alt="enjoy1" />
+                    <div class="section-hover">
+                      <div class="section-icon">
+                        <img
+                          src="images/enjoy_layer_ico.png"
+                          alt="광화문icon"
+                        />
+                        <p>자세히보기</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-text-box">
+                    <strong>안내영상</strong>
+                    <span></span>
+                    <p>
+                      광화문광장 주요 공간들과 광화문 및 광화문 주변 장소들의
+                      이야기를 영상을 통해 만나보실 수 있습니다
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item-box1">
+                <div class="section4-box">
+                  <div class="img-box">
+                    <img src="images/enjoy_quick04.jpg" alt="enjoy1" />
+                    <div class="section-hover">
+                      <div class="section-icon">
+                        <img
+                          src="images/enjoy_layer_ico.png"
+                          alt="광화문icon"
+                        />
+                        <p>자세히보기</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-text-box">
+                    <strong>창작 공모전</strong>
+                    <span></span>
+                    <p>
+                      일러스트 공모전, 사진.짧은영상 공모전, 영상창 전시콘텐츠
+                      공모전 등 광화문광장을 담은 다채로운 수상작들을 만나보실
+                      수 있습니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section5">
+          <div class="inner">
+            <!-- Swiper -->
+            <div class="swiper-inner">
+              <div
+                style="
+                  --swiper-navigation-color: #fff;
+                  --swiper-pagination-color: #fff;
+                "
+                class="swiper meSwiper2"
+              >
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex01.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">역사물길</div>
+                      <p>
+                        광화문광장에는 1392년 조선건국부터 630년 역사의 물길이
+                        흐릅니다. <br />역사물길은 정부서울청사 앞 육조마당에서
+                        시작하여 광화문광장 전체를 흘러 한글분수까지 이어집니다.
+                        물길을 따라 돌판에 새겨진 우리나라 주요 역사를 만나볼 수
+                        있습니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex02.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">사계정원</div>
+                      <p>
+                        한국의 자생수종을 중심으로 한국의 계절감을 느낄 수 있는
+                        공간입니다. <br />고궁에서 사용되었던 화계(층계모양으로
+                        단을 만들어 화초를 심음)에서 영감을 얻은 장대석 화단이
+                        풍성하고 아늑한 분위기를 나타냅니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex03.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">세종대왕동상</div>
+                      <p>
+                        민족의 영웅으로서 경복궁에서 즉위하여 승하하신 최초의
+                        임금이었던 세종대왕의 동상. <br />높이 6.2m, 폭 4.3m
+                        규모로 4.2m 기단(基壇)위에 좌상형태로 남쪽을 향해있는
+                        세종대왕 동상은 부드러운 표정으로, 왼손에는 ‘훈민정음
+                        해례본’(페이지는 용자례 - 훈민정음 글자의 사용 예를
+                        정리한 것)을 , 오른손은 가볍게 들어 신하들에게 온 백성이
+                        훈민정음을 널리 쓰도록 하라는 대왕의 정신을
+                        표현하였습니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex04.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">문화쉼터</div>
+                      <p>
+                        세종문화회관 앞, 공원의 일상을 담을 수 있는
+                        공간입니다.<br />북악산에서 경복궁과 광장으로 자연이
+                        연결되는 공간을 담고자 보통 산에서 만날 수 있는 참나무
+                        숲을 조성하였습니다. 문화쉼터 나무 아래에는 누구나
+                        편하게 앉아 쉴 수 있는 긴 테이블‘모두의 식탁’이
+                        있습니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex05.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">해치마당</div>
+                      <p>
+                        모두를 위한 광장의 시작. 해치마당입니다. 광화문역과
+                        광화문광장을 연결하고, 휴식과 만남의 장소가 되는
+                        곳입니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex06.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">열린마당</div>
+                      <p>
+                        사람들이 만나고 쉴 수 있도록 커다란 나무가 그늘을 만들어
+                        주는 공간입니다. 바닥에는 전국에서 생산된 돌들을 조각보
+                        문양으로 설치하였습니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex08.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">명량분수</div>
+                      <p>
+                        충무공의 해전을 상징하는 바닥분수입니다. 동상 내측
+                        분수의 133개 노즐은 명량해전 당시 133척의 왜선 격퇴를,
+                        외측 분수는 한산도 대첩 당시 학익진(鶴翼陳, 학이 날개를
+                        편 듯이 진을 쳐 적을 측면에서부터 무너뜨리는 전술)
+                        전법을 상징합니다. 또한 분수 앞 바닥 조명은 이순신장군
+                        탄생년도 1545년을 보티브로 하여 길이를 15.45m로
+                        만들었습니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="images/tour_imgex09.jpg" />
+                    <div class="text-box">
+                      <div class="sub-tit">광장 시설안내</div>
+                      <div class="main-tit">광장숲</div>
+                      <p>
+                        복잡한 세종대로 사거리를 벗어나 숲과 같은 녹음이 풍부한
+                        휴식공간으로 느티나무, 느릅나무, 팽나무 같은 키가 큰
+                        나무들이 있어 광장을 찾는 시민들에게 시원한 개방감과
+                        그늘을 선사합니다.
+                      </p>
+                      <div class="btn">
+                        <a href="#">자세히보기</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-stop"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination-1"></div>
+            </div>
+            <div thumbsSlider="" class="swiper meSwiper swiper22">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex01.jpg" />
+                  </div>
+                  <div class="text">역사물길</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex02.jpg" />
+                  </div>
+                  <div class="text">사계정원</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex03.jpg" />
+                  </div>
+                  <div class="text">시헌부 문터</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex04.jpg" />
+                  </div>
+                  <div class="text">세종대왕동상</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex05.jpg" />
+                  </div>
+                  <div class="text">문화쉼터</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex06.jpg" />
+                  </div>
+                  <div class="text">해치마당</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex07.jpg" />
+                  </div>
+                  <div class="text">열린마당</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex08.jpg" />
+                  </div>
+                  <div class="text">명량분수</div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="img-box">
+                    <img src="images/tour_imgex09.jpg" />
+                  </div>
+                  <div class="text">광장숲</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="inner">
+            <div class="foot-text">
+              <a href="#">개인정보처리방침</a>
+            </div>
+            <div class="foot-text">
+              <a href="#">영상정보처리기기 운영 관리방침</a>
+            </div>
+            <div class="foot-op">
+              <label for="familySite"></label>
+              <select class="label-box" id="familySite">
+                <option value=".관련사이트">관련사이트</option>
+                <option value=".서울시 대표누리집">서울시 대표누리집</option>
+                <option value=".서울광장 누리집">서울광장 누리집</option>
+                <option value=".프로젝트 서울 누리집">
+                  프로젝트 서울 누리집
+                </option>
+                <option value=".서울 균형방전포털 누리집">
+                  서울 균형방전포털 누리집
+                </option>
+              </select>
+            </div>
+            <button><a href="#">이동</a></button>
+          </div>
+          <div class="inner1">
+            <div class="foot-img-text">
+              <img src="images/footer_logo.png" alt="footer_logo" />
+              <p class="footer-log">
+                서울특별시청 04524 서울특별시 중구 세종대로 110. 전화:02-120
+              </p>
+              <p class="copy">
+                COPYRIGHT &copy; SEOUL METROLITAN GOVERNMENT. ALL RIGHTS
+                RESERVED
+              </p>
+            </div>
+            <div class="foot-banner">
+              <img
+                src="images-recent-2023-11-29/footer-banner.jpg"
+                alt="서울축제모음"
+              />
+              <img src="images-recent-2023-11-29/footer-img.png" alt="weba" />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Initialize Swiper -->
+    <script></script>
+  </body>
+</html>
